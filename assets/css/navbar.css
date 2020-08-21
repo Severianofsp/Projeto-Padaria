@@ -1,0 +1,127 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    background-color: #f6983e;
+    text-align: center;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.espaco {
+    margin-top: -10px;
+    min-width: 11.5%;
+}
+
+.logo>center>img {
+    margin-top: -10px;
+    width: 12%;
+}
+
+.logo {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -175px;
+}
+
+.email {
+    top: 3px;
+    position: relative;
+}
+
+.teste {
+    margin-top: -13px;
+    width: 100%;
+}
+
+.teste>li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.logo-email {
+    top: 13px;
+    position: relative;
+    width: 45px;
+}
+
+.nav-up {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-up>div {
+    display: inline-block;
+}
+
+.button {
+    width: 58%;
+    height: 38px;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../images/botaoContato1.png);
+    margin-right: 306px;
+    background-repeat: no-repeat;
+}
+
+.contato {
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
+
+.contato_title {
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+.contato_number {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.button>ul>li {
+    list-style: none;
+}
+
+.email_link {
+    color: white;
+}
+
+.nav-bar {
+    padding: 67px 0vh;
+    background-color: #ededed;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+}
+
+.menu_item {
+    margin-top: 28px;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-right: 24px;
+}
+
+.item_link {
+    color: #871104;
+    font-weight: bold;
+}
