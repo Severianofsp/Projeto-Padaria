@@ -1,0 +1,25 @@
+.info {
+    text-align: center;
+    background-color: #ee2524;
+    padding: 4px 0vh;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logo_footer>img {
+    width: 150px;
+}
+
+.contact>div {
+    display: inline-block;
+}
+
+.contact_info {
+    margin-left: 114px;
+    text-align: initial;
+    top: -28px;
+    position: relative;
+    color: white;
+    font-weight: 600;
+}

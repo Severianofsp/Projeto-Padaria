@@ -1,0 +1,63 @@
+.news {
+    margin-bottom: 100px;
+}
+
+.news_title {
+    margin-top: -31px;
+    padding: 23px 0px;
+    background-size: contain;
+    background-position: center;
+    background-color: #f1f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.news_title>h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.news_descption {
+    margin: 0 auto 16px auto;
+    line-height: 1.5;
+    width: 88%;
+    text-align: center;
+    color: #707070;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.img_item {
+    width: 100%;
+}
+
+.cards {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.card {
+    margin: 0px 4px;
+    width: 20%;
+    display: inline-block;
+}
+
+.news_button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.news_button>button {
+    background-color: #004c18;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    padding: 6px 20px;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+}

@@ -6,10 +6,16 @@ a {
     text-decoration: none !important;
 }
 
+#nav-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
 .nav {
     width: 100%;
     height: 50px;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     background-color: #f6983e;
     text-align: center;
@@ -28,9 +34,40 @@ a {
     width: 12%;
 }
 
+.register {
+    width: 100%;
+}
+
+.register_container {
+    height: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.single-item-rtl {
+    margin: 0 auto;
+}
+
+.bn {
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    background-color: inherit;
+    padding: 10px 28px;
+    font-size: 16px;
+    background-color: red;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    right: 16vw;
+    text-transform: uppercase;
+    top: 181px;
+}
+
 .logo {
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     margin-top: -175px;
 }

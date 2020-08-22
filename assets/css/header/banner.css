@@ -1,0 +1,62 @@
+.carousel {
+    padding-top: 50px;
+    height: 100%;
+}
+
+.carousel div {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel div img {
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    line-height: 4;
+}
+
+.slick-next {
+    margin-right: 70px;
+}
+
+.slick-prev {
+    margin-left: 70px;
+    z-index: 1;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px !important;
+}
+
+.presentation {
+    border-radius: 100%;
+    border: 4px solid #fff !important;
+    color: transparent !important;
+}
+
+.slick-dots li button:before {
+    border-radius: 100%;
+    border: 3px solid #fff !important;
+    font-size: 15px;
+    top: -4px;
+    opacity: 1;
+    color: transparent;
+    position: relative;
+}
+
+.slick-dots li {
+    margin: 0 25px
+}
+
+.slick-dots li.slick-active button::before {
+    border-radius: 100%;
+    border: 3px solid #fff !important;
+    color: red !important;
+}
