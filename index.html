@@ -2,6 +2,28 @@
 <html lang="pt-Br">
 
 <head>
+
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NMZG3K6');
+    </script>
+
+    <title>Padaria São Geraldo</title>
+    <link rel="icon" href="favicon.png" />
+    <meta name="description" content="Site destinado a venda de produtos e dicas de receitas" />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
@@ -14,10 +36,14 @@
     <link rel="stylesheet" type="text/css" href="assets/css/footer/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+
 </head>
 
 <body>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMZG3K6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
     <div class="interface">
 
         <div class="header">
@@ -62,7 +88,7 @@
 
                     </div>
                     <div class="logo">
-                        <center><img src="assets/images/logo.png"></center>
+                        <center><img src="assets/images/logo.png" alt="logo"></center>
                     </div>
                 </div>
                 <div class="register">
@@ -72,31 +98,61 @@
                 </div>
 
                 <div class="carousel">
-                    <div><img src="assets/images/carousel.png" alt="js" /></div>
-                    <div><img src="assets/images/carousel.png" alt="java" /></div>
-                    <div><img src="assets/images/carousel.png" alt="python" /></div>
-                    <div><img src="assets/images/carousel.png" alt="python" /></div>
+                    <div><img src="assets/images/carousel.png" alt="Pão" /></div>
+                    <div><img src="assets/images/carousel.png" alt="Pão" /></div>
+                    <div><img src="assets/images/carousel.png" alt="Pão" /></div>
+                    <div><img src="assets/images/carousel.png" alt="Pão" /></div>
                 </div>
+
             </div>
             <div class='products'>
                 <div class="products_title">
                     <h2>Produtos</h2>
                 </div>
-                <p class="description">Conheça nossos produtos</p>
-                <div class="carousel_product">
-                    <div class="one-time">
-                        <div class="teste2">
-                            <div><img src="assets/images/paoDeQueijo.png" alt="js" />
-                            </div>
-                            <div class="product_slider">
-                                <p class="slider_item">150g</p>
-                                <p class="slider_item">3Kg</p>
-                                <p class="slider_item">10Kg</p>
+                <p class="products_subtitle">Conheça nossos produtos</p>
+                <div class="cards">
+                    <div class="cards_container">
+                        <div class="slider-nav card_image">
+                            <div><img src="assets/images/paoDeQueijo.png" /></div>
+                            <div><img src="assets/images/fritas.png" /></div>
+                        </div>
+                        <div class="card_text">
+                            <div class="card_title">
+                                <div class="slider-for title_item">
+                                    <div>
+                                        <h3>Pão de queijo caseiro</h3>
+                                    </div>
+                                    <div>
+                                        <h3>Batata Frita</h3>
+                                    </div>
+                                </div>
+                                <div class="slider-for card_description">
+                                    <div>
+                                        <p>O pão de queijo é uma iguaria oriunda da América do Sul, muito apreciada no Brasil. É uma variação da chipa, receita criada pelas missões jesuíticas, com influências indígena e europeia, que é típica de países como
+                                            Paraguai e Argentina. Teria entrado no Brasil por volta da década de 1860.</p>
+                                        <div class="card_button">
+                                            <button>Ver mais</button>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>O termo batatas fritas refere-se ao produto da preparação culinária de batatas cortadas previamente em tiras, palitos finíssimos, rodelas ou folhas e, posteriormente, fritas. </p>
+                                        <div class="card_button">
+                                            <button>Ver mais</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div><img src="assets/images/logo.png" alt="java" /></div>
+                    </div>
+                    <div class="information">
+                        <div class="info_item">5kg</div>
+                        <div class="info_item">5kg</div>
+                        <div class="info_item">5kg</div>
                     </div>
                 </div>
+
+
+
             </div>
 
             <div class="news">

@@ -1,5 +1,5 @@
 .products {
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .products_title {
@@ -21,11 +21,62 @@
     font-style: italic;
 }
 
-.description {
+.products_subtitle {
     color: grey;
     margin: 40px auto 13px auto;
     text-align: center;
     font-size: 25px;
+}
+
+.products_text>p {
+    width: 23%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.produtos_description {
+    border-radius: 10px;
+    background-color: #c8e7c8;
+}
+
+.products_container {
+    border-radius: 10px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.products_container>div {
+    display: inline-block;
+}
+
+.products_carousel {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.arabesco {
+    margin-bottom: 10px;
+}
+
+.arabesco>img {
+    margin: 0 auto;
+    width: 10%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button>button {
+    background-color: #004c18;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    padding: 6px 20px;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
 }
 
 .one-time {
@@ -66,4 +117,112 @@
     display: inline-block;
     width: 20%;
     border-radius: 4px;
+}
+
+.cards_container {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card_image {
+    background-color: #f1f2f2;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.slick-slide img {
+    width: 300px;
+    display: block;
+}
+
+.card_text {
+    width: 30%;
+    text-align: center;
+}
+
+.card-title>div>div>div {
+    background-color: transparent;
+}
+
+.title_item {
+    width: 100% !important;
+}
+
+.info_title>h3 {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.card_description {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #c8e7c8;
+    margin-top: 0;
+    width: 100% !important;
+}
+
+.slider-nav {
+    width: 24%;
+}
+
+.slider-for {
+    width: 24%;
+}
+
+.slider-for>div>div {
+    width: 30%;
+    text-align: center;
+}
+
+.card_description>div>div>div {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #c8e7c8;
+    margin-top: 0;
+}
+
+.slick-slide>p {
+    word-spacing: 1.5px;
+}
+
+.card_button {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card_button>button {
+    background-color: #004c18;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    padding: 6px 20px;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+}
+
+.information {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info_item {
+    position: relative;
+    top: -15px;
+    margin: 0 5px;
+    background-color: #004c18;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    padding: 3px 15px;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
 }
