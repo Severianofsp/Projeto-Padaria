@@ -10,6 +10,6 @@ $('.slider-nav').slick({
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     dots: false,
-
-    focusOnSelect: true
+    arrows: true,
+    focusOnSelect: false
 });

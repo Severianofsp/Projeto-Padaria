@@ -7,6 +7,7 @@
     padding: 23px 0px;
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url(../../images/barraProdutos.png);
     text-align: center;
     text-transform: uppercase;
@@ -88,7 +89,8 @@
     padding: 0px 50px;
     background-color: #f7f7f7;
     border-radius: 20px;
-    box-shadow: 0px 15px 29px -11px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
     margin: 0 auto;
     width: 20%;
 }
@@ -130,11 +132,32 @@
     background-color: #f1f2f2;
     width: 30%;
     border-radius: 20px;
+    left: 8px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
 }
 
 .slick-slide img {
     width: 300px;
     display: block;
+}
+
+.image_item {
+    padding: 65px 16px 60px 8px;
+}
+
+.card_image>.slick-prev,
+.card_image>.slick-next {
+    margin: 0 30px 0 0;
+    color: #888787;
+}
+
+.card_image>.slick-prev:before,
+.card_image>.slick-next:before {
+    color: #888787;
+    line-height: 0;
+    font-size: 50px;
 }
 
 .card_text {
@@ -147,7 +170,11 @@
 }
 
 .title_item {
+    color: #035f1d;
+    font-weight: bolder;
+    margin: 5px;
     width: 100% !important;
+    font-size: 25px;
 }
 
 .info_title>h3 {
@@ -156,13 +183,23 @@
     font-size: 25px;
 }
 
+.arabescoSup {
+    width: 18%;
+    margin-left: 20px;
+}
+
+.card_arabesco {
+    margin: 13px 0px;
+    width: 40%;
+}
+
 .card_description {
-    padding: 10px 30px;
     border-radius: 20px;
     font-size: 16px;
     background-color: #c8e7c8;
     margin-top: 0;
     width: 100% !important;
+    padding: 13px 50px;
 }
 
 .slider-nav {
@@ -170,7 +207,7 @@
 }
 
 .slider-for {
-    width: 24%;
+    width: 100% !important;
 }
 
 .slider-for>div>div {
@@ -179,7 +216,6 @@
 }
 
 .card_description>div>div>div {
-    padding: 10px 30px;
     border-radius: 20px;
     font-size: 16px;
     background-color: #c8e7c8;
@@ -207,17 +243,17 @@
 }
 
 .information {
-    width: 70%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    top: -16px;
+    right: 190px;
+    z-index: 1;
 }
 
 .info_item {
-    position: relative;
+    display: inline-block;
+    z-index: 2;
     top: -15px;
     margin: 0 5px;
-    background-color: #004c18;
+    background-color: #239d4a;
     border-radius: 5px;
     font-size: 17px;
     color: white;
@@ -225,4 +261,59 @@
     outline: none;
     text-transform: uppercase;
     border: none;
+}
+
+.pimenta {
+    margin: 0 auto;
+    left: 36px;
+    width: 90%;
+    text-align: center;
+    top: -150px;
+    position: relative;
+}
+
+.pimenta>img {
+    width: 148px;
+}
+
+.divisoria {
+    text-align: center;
+    bottom: 30px;
+    position: relative;
+}
+
+.divisoria>img {
+    width: 30%;
+}
+
+.chat_container {
+    position: relative;
+    bottom: 199px;
+    text-align: right;
+    text-align: -webkit-right;
+}
+
+#chat {
+    background-image: url(../../images/chat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 20%;
+    padding: 67px 31px;
+    right: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+#chat>p {
+    margin: 20px 0;
+}
+
+#chat>p,
+#chat>h5,
+#chat>div {
+    color: white;
+    top: 35px;
+    position: relative;
+    margin-bottom: 5px;
 }

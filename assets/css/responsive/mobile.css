@@ -1,0 +1,153 @@
+/*nav bar */
+
+#menu {
+    display: none;
+    position: absolute;
+    left: 75vw;
+    background-color: #ededed;
+    padding: 7px 20px;
+    box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
+}
+
+.menu_item {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.icon {
+    display: block;
+    z-index: 2;
+    left: 89vw;
+    font-size: 12px;
+    top: 5px;
+    position: absolute;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.nav-bottom {
+    position: absolute;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.button {
+    margin-top: 20px;
+    height: 29px;
+}
+
+.contato {
+    top: 5px;
+}
+
+.contato_number {
+    font-size: 11px;
+}
+
+.email {
+    position: absolute;
+}
+
+.logo-email {
+    top: 6px;
+    width: 30px;
+}
+
+.email_link {
+    font-size: 10px;
+}
+
+
+/* Header */
+
+.carousel {
+    padding-top: 10px;
+}
+
+.bn {
+    top: 43px;
+    font-size: 7px;
+    padding: 7px 15px;
+}
+
+.slick-prev {
+    margin-left: 31px;
+}
+
+.slick-next {
+    margin-right: 45px;
+}
+
+.slick-prev,
+.slick-next {
+    top: 25%;
+    color: #888787;
+}
+
+.slick-dots {
+    top: 165px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+}
+
+.slick-dots li {
+    margin: 0 10px;
+    width: 10px;
+}
+
+
+/* products */
+
+.products_title>h2 {
+    font-size: 20px;
+}
+
+.products_title {
+    background-size: cover;
+    padding: 5px 0px;
+}
+
+.products_subtitle {
+    margin: 9px auto 13px auto;
+    font-size: 15px;
+}
+
+.cards_container {
+    display: block;
+}
+
+.card_image {
+    margin: 0 auto;
+    width: 66%;
+}
+
+.card_image>div>div>div>img {
+    width: 200px;
+    padding: 70px 27px;
+}
+
+.card_image>.slick-prev:before,
+.card_image>.slick-next:before {
+    top: 90px;
+    position: relative;
+}
+
+.card_arabesco {
+    width: 100%;
+}
+
+.card_text {
+    margin: 0 auto;
+}
+
+.slick-active {
+    width: 100%;
+}
+
+.card_text {
+    width: 100%;
+}

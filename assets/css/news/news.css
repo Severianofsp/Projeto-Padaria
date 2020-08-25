@@ -1,5 +1,10 @@
-.news {
-    margin-bottom: 100px;
+#news {
+    position: relative;
+    bottom: 215px;
+}
+
+.title_item {
+    margin-left: 5px;
 }
 
 .news_title {
@@ -13,7 +18,15 @@
     width: 100%;
 }
 
-.news_title>h2 {
+.news_title>div {
+    display: inline-block;
+}
+
+.enfeite {
+    width: 70%;
+}
+
+.news_title>div>h2 {
     font-family: 'Montserrat', sans-serif;
     color: #707070;
     font-size: 25px;
@@ -51,7 +64,7 @@
     margin-top: 10px;
 }
 
-.news_button>button {
+.news_button>.button_plus {
     background-color: #004c18;
     border-radius: 10px;
     font-size: 17px;
@@ -60,4 +73,10 @@
     outline: none;
     text-transform: uppercase;
     border: none;
+}
+
+.button_plus:hover {
+    color: #004c18;
+    background-color: #fff;
+    border: 1px solid #004c18;
 }

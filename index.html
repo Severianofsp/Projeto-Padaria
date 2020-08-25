@@ -34,8 +34,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/products/products.css">
     <link rel="stylesheet" type="text/css" href="assets/css/news/news.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive/mobile.css" media="screen and (max-width: 850px)" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -46,7 +48,7 @@
 
     <div class="interface">
 
-        <div class="header">
+        <div id="header">
             <div id="nav-bar">
                 <div class="nav">
 
@@ -74,18 +76,20 @@
 
 
                     </div>
-                    <div class="nav-bar">
+                    <div class="nav-bottom">
                         <nav>
-                            <ul class="menu">
-                                <li class="menu_item"><a class="item_link" href="#">Home</a></li>
-                                <li class="menu_item"><a class="item_link" href="#">Quem Somos</a></li>
-                                <li class="menu_item"><a class="item_link" href="#">Produtos</a></li>
+                            <ul id="menu">
+                                <li class="menu_item"><a class="item_link" href="#header">Home</a></li>
+                                <li class="menu_item"><a class="item_link" href="#info">Quem Somos</a></li>
+                                <li class="menu_item"><a class="item_link" href="#products">Produtos</a></li>
                                 <li class="menu_item espaco"></li>
-                                <li class="menu_item"><a class="item_link" href="#">Dicas & Novidades</a></li>
-                                <li class="menu_item"><a class="item_link" href="#">Fale Conosco</a></li>
+                                <li class="menu_item"><a class="item_link" href="#news">Dicas & Novidades</a></li>
+                                <li class="menu_item"><a class="item_link" href="#chat">Fale Conosco</a></li>
                             </ul>
                         </nav>
-
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
                     </div>
                     <div class="logo">
                         <center><img src="assets/images/logo.png" alt="logo"></center>
@@ -105,60 +109,87 @@
                 </div>
 
             </div>
-            <div class='products'>
+            <div id='products'>
                 <div class="products_title">
                     <h2>Produtos</h2>
                 </div>
                 <p class="products_subtitle">Conheça nossos produtos</p>
                 <div class="cards">
                     <div class="cards_container">
+
                         <div class="slider-nav card_image">
-                            <div><img src="assets/images/paoDeQueijo.png" /></div>
-                            <div><img src="assets/images/fritas.png" /></div>
+                            <div><img class="image_item" src="assets/images/paoDeQueijo.png" /></div>
+                            <div><img class="image_item" src="assets/images/fritas.png" /></div>
                         </div>
                         <div class="card_text">
                             <div class="card_title">
+                                <img class="arabescoSup" src="assets/images/arabescoSup.png" />
                                 <div class="slider-for title_item">
                                     <div>
-                                        <h3>Pão de queijo caseiro</h3>
+                                        <h3 class="title_item">Pão de queijo caseiro</h3>
                                     </div>
                                     <div>
-                                        <h3>Batata Frita</h3>
+                                        <h3 class="title_item">Batata Frita</h3>
                                     </div>
                                 </div>
-                                <div class="slider-for card_description">
-                                    <div>
-                                        <p>O pão de queijo é uma iguaria oriunda da América do Sul, muito apreciada no Brasil. É uma variação da chipa, receita criada pelas missões jesuíticas, com influências indígena e europeia, que é típica de países como
-                                            Paraguai e Argentina. Teria entrado no Brasil por volta da década de 1860.</p>
-                                        <div class="card_button">
-                                            <button>Ver mais</button>
+                                <div class="card_description">
+                                    <img class="card_arabesco" src="assets/images/arabesco.png" />
+                                    <div class="slider-for ">
+                                        <div>
+                                            <p>O pão de queijo é uma iguaria oriunda da América do Sul, muito apreciada no Brasil. É uma variação da chipa, receita criada pelas missões jesuíticas, com influências indígena e europeia, que é típica de países
+                                                como Paraguai e Argentina. Teria entrado no Brasil por volta da década de 1860.</p>
+                                            <div class="card_button">
+                                                <button>Ver mais</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <p>O termo batatas fritas refere-se ao produto da preparação culinária de batatas cortadas previamente em tiras, palitos finíssimos, rodelas ou folhas e, posteriormente, fritas. </p>
-                                        <div class="card_button">
-                                            <button>Ver mais</button>
+                                        <div>
+                                            <p>O termo batatas fritas refere-se ao produto da preparação culinária de batatas cortadas previamente em tiras, palitos finíssimos, rodelas ou folhas e, posteriormente, fritas. </p>
+                                            <div class="card_button">
+                                                <button>Ver mais</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="information">
+                </div>
+                <div class="slider-for information">
+                    <div>
                         <div class="info_item">5kg</div>
-                        <div class="info_item">5kg</div>
+                        <div class="info_item">15kg</div>
+                        <div class="info_item">25kg</div>
+                    </div>
+                    <div>
                         <div class="info_item">5kg</div>
                     </div>
                 </div>
+                <div class="pimenta">
+                    <img src="assets/images/pimenta.png" />
+                </div>
 
-
-
+                <div class="divisoria">
+                    <img src="assets/images/divisoria.png" />
+                </div>
+                <div class="chat_container">
+                    <div id="chat">
+                        <h5>Olá!</h5>
+                        <p>Caso tenha alguma dúvida estamos a disposição por aqui.</p>
+                        <div class="news_button">
+                            <a class="button_plus">Iniciar Chat</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="news">
+            <div id="news">
 
                 <div class="news_title">
-                    <h2>Confira Nossas <br> Dicas & Novidades</h2>
+                    <div><img class="enfeite" src="assets/images/enfeiteEsquerdo.png" /></div>
+                    <div>
+                        <h2>Confira Nossas <br> Dicas & Novidades</h2>
+                    </div>
+                    <div><img class="enfeite" src="assets/images/enfeiteDireito.png" /></div>
                 </div>
                 <div class="cards">
                     <div class="card">
@@ -167,7 +198,7 @@
                         </div>
                         <div class="news_img"><img src="assets/images/queijo.png" class="img_item"></div>
                         <div class="news_button">
-                            <button>Ver mais</button>
+                            <a href="#" class="button_plus">Ver mais</a>
                         </div>
                     </div>
                     <div class="card">
@@ -176,7 +207,7 @@
                         </div>
                         <div class="news_img"><img src="assets/images/salgadinho.png" class="img_item"></div>
                         <div class="news_button">
-                            <button>Ver mais</button>
+                            <a href="#" class="button_plus">Ver mais</a>
                         </div>
                     </div>
                     <div class="card">
@@ -185,14 +216,14 @@
                         </div>
                         <div class="news_img"><img src="assets/images/fritas.png" class="img_item"></div>
                         <div class="news_button">
-                            <button>Ver mais</button>
+                            <a href="#" class="button_plus">Ver mais</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <footer>
-                <div class="info">
+                <div id="info">
                     <div class="contact">
                         <div class="logo_footer">
                             <img src="assets/images/logo.png" alt="logo">
@@ -209,6 +240,7 @@
                 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
                 <script type="text/javascript" src="assets/js/header.js"></script>
                 <script type="text/javascript" src="assets/js/products.js"></script>
+                <script type="text/javascript" src="assets/js/mobile/nav_mobile.js"></script>
             </footer>
 </body>
 

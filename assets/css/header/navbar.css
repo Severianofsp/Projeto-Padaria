@@ -5,6 +5,7 @@ html {
 
 a {
     text-decoration: none !important;
+    cursor: pointer;
 }
 
 #nav-bar {
@@ -25,14 +26,19 @@ a {
     box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.75);
 }
 
+.icon {
+    display: none;
+}
+
 .espaco {
     margin-top: -10px;
     min-width: 11.5%;
 }
 
 .logo>center>img {
-    margin-top: -10px;
     width: 12%;
+    z-index: 2;
+    position: relative;
 }
 
 .register {
@@ -63,14 +69,19 @@ a {
     border-bottom-left-radius: 20px;
     right: 16vw;
     text-transform: uppercase;
-    top: 181px;
+    top: 145px;
+    cursor: pointer;
+}
+
+.bn:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
 }
 
 .logo {
     width: 100%;
-    z-index: 2;
-    position: absolute;
-    margin-top: -175px;
+    margin-top: -148px;
 }
 
 .email {
@@ -109,7 +120,7 @@ a {
     height: 38px;
     background-size: contain;
     background-position: center;
-    background-image: url(../images/botaoContato1.png);
+    background-image: url(../../images/botaoContato.png);
     margin-right: 306px;
     background-repeat: no-repeat;
 }
@@ -138,12 +149,13 @@ a {
     color: white;
 }
 
-.nav-bar {
-    padding: 67px 0vh;
+.nav-bottom {
+    padding: 50px 0vh;
     background-color: #ededed;
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
-    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.32);
 }
 
 .menu {
