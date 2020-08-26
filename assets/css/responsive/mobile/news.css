@@ -1,0 +1,29 @@
+#news {
+    margin: -90px 0px 94px;
+}
+
+.enfeite {
+    width: 100%;
+}
+
+.enfeite_container {
+    width: 10%;
+}
+
+.news_title>div>h2 {
+    font-size: 17px;
+}
+
+.card {
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.news_description {
+    font-size: 15px;
+}
+
+.img_item {
+    width: 80%;
+}

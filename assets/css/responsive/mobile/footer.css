@@ -1,0 +1,22 @@
+.logo_footer {
+    width: 11%;
+}
+
+.logo_footer>img {
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contato>div {
+    display: block;
+}
+
+.contact_info {
+    margin-left: 0px;
+    top: 0;
+    font-size: 0.7rem;
+    text-align: center;
+}

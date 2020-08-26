@@ -1,0 +1,114 @@
+.products_title>h2 {
+    font-size: 20px;
+}
+
+.products_title {
+    background-size: cover;
+    padding: 5px 0px;
+    background-repeat: no-repeat;
+}
+
+.products_subtitle {
+    margin: 9px auto 13px auto;
+    font-size: 15px;
+}
+
+.cards_container {
+    display: block;
+}
+
+.card_image {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.card_image>div>div>div>img {
+    width: 37vw;
+    padding: 70px 27px;
+    margin: 0 auto;
+}
+
+.card_image>.slick-prev:before,
+.card_image>.slick-next:before {
+    top: 90px;
+    position: relative;
+}
+
+.card_arabesco {
+    width: 40%;
+}
+
+.arabescoSup {
+    margin-left: 20px;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.card_text {
+    margin: 0 auto;
+}
+
+.slick-active {
+    width: 100%;
+}
+
+.card_text {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.title_item {
+    font-size: 17px;
+    margin: 5px 0;
+}
+
+.slick-slide>p {
+    font-size: 12px;
+}
+
+.card_description {
+    margin: 0 auto;
+    width: 70% !important;
+    left: 2vw;
+    position: relative;
+}
+
+.card_description>div>div>div {
+    width: 262px;
+}
+
+.pimenta {
+    width: 100%;
+    top: -90px;
+    position: relative;
+    text-align: left;
+    left: 0;
+}
+
+.pimenta>img {
+    width: 110px;
+}
+
+.card_button>button {
+    font-size: 12px;
+}
+
+.information {
+    top: -312px;
+    right: -9px;
+}
+
+.information>div>div>div {
+    left: 3px;
+}
+
+.info_item {
+    font-size: 9px;
+    margin: 0;
+}
+
+.divisoria>img {
+    width: 50%;
+    top: -70px;
+    position: relative;
+}
