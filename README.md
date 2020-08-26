@@ -12,7 +12,7 @@ http://unick360-projeto-padaria.s3-website-us-east-1.amazonaws.com
 
 ##### Execução Local
 
-Para exercutar o projeto só é necessário baixar o projeto copiando o link de download e executar o git clone no terminal, após isso abrir o arquivo index.html
+Para executar o projeto, localmente só é necessário baixar o projeto copiando o link de download e executar o git clone no terminal, após isso abrir o arquivo index.html
 
 ### Processo Criativo
 
