@@ -6,6 +6,7 @@ Este projeto foi criado utlizando HTML, Css, JavaScript.
 ##### Execução Online
 
 O projeto foi hospedado pelo Amazon S3. Para visitá-lo só é necessário clicar no link a baixo:
+
 http://unick360-projeto-padaria.s3-website-us-east-1.amazonaws.com
 
 
