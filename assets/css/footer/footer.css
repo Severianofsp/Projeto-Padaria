@@ -23,3 +23,7 @@
     color: white;
     font-weight: 600;
 }
+
+.chat_mobile {
+    display: none;
+}

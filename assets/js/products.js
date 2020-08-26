@@ -11,5 +11,5 @@ $('.slider-nav').slick({
     asNavFor: '.slider-for',
     dots: false,
     arrows: true,
-    focusOnSelect: false
+    focusOnSelect: false,
 });

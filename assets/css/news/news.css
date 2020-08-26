@@ -1,10 +1,6 @@
 #news {
     position: relative;
-    bottom: 215px;
-}
-
-.title_item {
-    margin-left: 5px;
+    margin: -215px 0px 94px;
 }
 
 .news_title {

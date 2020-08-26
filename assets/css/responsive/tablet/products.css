@@ -1,0 +1,42 @@
+.slick-slide img {
+    width: 220px;
+}
+
+.arabescoSup {
+    width: 25%;
+    margin-left: 89px;
+}
+
+.image_item {
+    padding: 90px 16px 75px 8px;
+}
+
+.card_description {
+    padding: 0px 50px;
+}
+
+.card_image>.draggable>.slick-track>.slick-current {
+    width: 25vw;
+}
+
+.pimenta {
+    top: -116px;
+}
+
+.pimenta>img {
+    width: 136px;
+}
+
+.title_item {
+    margin-left: 20px;
+}
+
+.title_item>div {
+    width: 327px;
+}
+
+#chat>h5 {
+    top: 38px;
+    width: 67%;
+    margin: 0 auto;
+}

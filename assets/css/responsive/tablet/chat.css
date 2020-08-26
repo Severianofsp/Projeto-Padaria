@@ -1,0 +1,12 @@
+#chat {
+    min-width: 245px;
+    width: 26%;
+    padding: 44px 0px;
+    right: 6px;
+    position: relative;
+}
+
+#chat>p {
+    top: 25px;
+    font-size: 11px;
+}

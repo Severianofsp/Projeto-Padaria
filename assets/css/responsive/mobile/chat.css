@@ -1,0 +1,22 @@
+#chat {
+    display: none;
+}
+
+.chat_mobile {
+    border: 2px solid #f6983e;
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    font-size: 25px;
+    border-radius: 100px;
+    padding: 17px 17px;
+    background-color: #f6983e;
+    color: #f1f2f2;
+}
+
+.chat_mobile:active {
+    border: 2px solid #f6983e;
+    color: #f6983e;
+    background-color: #f1f2f2;
+}
