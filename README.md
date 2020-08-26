@@ -6,6 +6,7 @@ Este projeto foi criado utlizando HTML, Css, JavaScript.
 ##### Execução Online
 
 O projeto foi hospedado pelo Amazon S3. Para visitá-lo só é necessário clicar no link a baixo:
+http://unick360-projeto-padaria.s3-website-us-east-1.amazonaws.com
 
 
 ##### Execução Local
@@ -15,7 +16,7 @@ Para exercutar o projeto só é necessário baixar o projeto copiando o link de 
 ### Processo Criativo
 
 O projeto foi criado de acordo com a organização do site:
-  - Inicializando primeiramente pelo Navbar colocando as informações nos locais destinados e fazendo os ajustes necessários para criar uma barra de navegação agradável;
+  - Inicializando primeiramente pelo Navbar criado de acordo com a lógica de mercado e possuí responsividade com dispositivos móveis;
   - Após finalizado o Navbar foi adicionado o Header com um Carousel com a lib Slicker.js para que tenha um carousel mais harmonioso com responsividade e também foram feitas algumas alterações utilizando o CSS para ficar igual ao modelo desejado de site;
   - seguindo o modelo foram adicionados mais um carousel utlizando a mesma lib anteriormente o qual tanto a image, o titulo e a descrição possam ser conectadas e alteradas de a cordo com a foto mostrada, criando um efeito que a foto terá correspondência com o título e a descrição;
   - foi adicionada também a área do chat desejada;
