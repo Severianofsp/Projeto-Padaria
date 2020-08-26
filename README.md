@@ -18,7 +18,7 @@ Para executar o projeto, localmente só é necessário baixar o projeto copiando
 
 O projeto foi criado de acordo com a organização do site:
   - Inicializando primeiramente pelo Navbar criado de acordo com a lógica de mercado e possuí responsividade com dispositivos móveis;
-  - Após finalizado o Navbar foi adicionado o Header com um Carousel com a lib Slicker.js para que tenha um carousel mais harmonioso com responsividade e também foram feitas algumas alterações utilizando o CSS para ficar igual ao modelo desejado de site;
+  - após finalizado o Navbar foi adicionado o Header com um Carousel com a lib Slicker.js para que tenha um carousel mais harmonioso com responsividade e também foram feitas algumas alterações utilizando o CSS para ficar igual ao modelo desejado de site;
   - seguindo o modelo foram adicionados mais um carousel utlizando a mesma lib anteriormente o qual tanto a image, o titulo e a descrição possam ser conectadas e alteradas de a cordo com a foto mostrada, criando um efeito que a foto terá correspondência com o título e a descrição;
   - foi adicionada também a área do chat desejada;
   - chegando na área de novidades, foram colocadas alinhadas para que as imagens fiquem com o mesmo tamanho e responsividade;
