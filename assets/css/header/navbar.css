@@ -35,7 +35,7 @@ a {
     min-width: 11.5%;
 }
 
-.logo>center>img {
+.logo>img {
     max-width: 144px;
     width: 12%;
     z-index: 2;
@@ -81,6 +81,7 @@ a {
 }
 
 .logo {
+    text-align: center;
     width: 100%;
     margin-top: -148px;
 }
