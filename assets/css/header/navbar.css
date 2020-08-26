@@ -91,12 +91,12 @@ a {
     position: relative;
 }
 
-.teste {
+.nav-up_information {
     margin-top: -13px;
     width: 100%;
 }
 
-.teste>li {
+.nav-up_information>li {
     display: inline-block;
     margin-right: 5%;
 }
